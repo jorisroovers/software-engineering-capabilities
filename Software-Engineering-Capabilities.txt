@@ -1,0 +1,550 @@
+﻿Software Development
+	Databases
+		SQL
+			MSSQL
+			MySQL
+				MariaDB
+			PostgreSQL
+			OracleDB
+			SQLite
+		NoSQL
+			Key-Value
+				Redis
+				Consul
+				Etcd
+				Zookeeper
+			Time-Series
+				InfluxDB
+				Graphite
+				OpenTSDB
+				Prometheus
+			Graph
+				Neo4J
+				Dgraph.io
+			Document
+				CouchDB
+				MongoDB
+				RethinkDB
+			Embedded (on-disk)
+				LevelDB
+					RocksDB
+					[
+					RocksDB is the most popular and probably the most efficient key-value store in the market. It originated in Google as SSTable which formed the basis for Bigtable, then got released as LevelDB. Facebook then improved LevelDB to add concurrency and optimizations for SSDs and released that as RocksDB. Work on RocksDB has been continuously going on for many years now, and it’s used in production at Facebook and many other companies.
+					]
+				Badger
+			Column-based
+				Cassandra
+				Bigtable
+		Real-time Push
+			Firebase
+			Meteor
+			RethinkDB
+		DB Migrations
+			Liquibase
+			Carbon5
+			Django Migrations
+			Flyway
+			Sqitch
+			DBMate
+			Alembic (SQLAlchemy)
+		DB Replication
+			Shareplex
+			Oracle RAC
+		ORM
+			Hibernate
+			Django ORM
+			ActiveRecord
+			SQLAlchemy
+	Automation Servers
+		Self-hosted
+			GoCD
+			uDeploy
+			Spinnaker
+			Capistrano
+			Openstack Zuul
+			Jetbrains Teamcity
+			gitlab
+			Jenkins
+		Hosted
+			CircleCI
+			Concourse
+			Shipped
+			Atlassian Bamboo
+	Identity
+		Hosted
+			Ping
+			Okta
+		Self-hosted
+			Forgerock
+			Keycloak
+			Dex
+			Shibboleth
+			Gluu
+	Testing
+		Non-functional
+			CodeStyle
+				Linting
+					Python
+						pylint
+					Javascript
+						eslint
+					Ansible
+						ansible-lint
+				Static Code Analysis
+					SonarQube
+					Hosted
+						CodeClimate
+					Language Specific
+						Python
+							Radon
+						Java
+							PMD
+							FindBugs
+							Checkstyle
+							JaCoCo
+						Ansible
+							Molecule
+							Ansible-test
+						Terraform
+							Terratest
+			Security
+				Code-level
+					Snyk.io
+					Checkmarx
+					Dependency Scanning
+						Blackduck
+					Python
+						Bandit
+					Fuzz testing
+						Codenomicon
+				App-level
+					SQLMap
+					AppScan (IBM)
+					Zgrab
+				Host-level
+					Qualys
+					Kali Linux
+				Standards
+					Center for Internet Security (CIS) benchmarks
+					[
+					https://github.com/cismirror/benchmarks
+					]
+					OWASP Top 10
+			Scale
+				Taurus
+				JMeter
+				ApacheBench
+				K6
+		Functional
+			Host-level
+				Testinfra
+				Goss
+				Serverspec
+				Inspec
+			Container
+				container-structure-test
+			Unit testing
+				Python
+					pytest
+					nose
+					tox
+					unittest
+				Javascript
+					Mocha
+					ReactJS
+						Jest
+					Chai
+					Karma (test runner)
+				Java
+					Junit
+					Mockito
+			Network
+				IntentionNet
+				BatFish
+			Browser Testing
+				Selenium
+				Playwright
+				Cypress
+				Puppeteer
+		User testing
+			https://www.usertesting.com/
+	Configuration Management
+		CFEngine
+		Puppet
+			Hiera
+			Facter
+			Foreman
+		Ansible
+			Molecule
+		Saltstack
+		Chef
+		Provisioning
+			Terraform
+			Pulumi
+			AWS CDK
+			Troposhere
+		Data templating language
+			Jsonnet
+			HOCON
+			HCL
+			Dahll
+	Orchestration (Workflow Engine)
+		Openstack Mistral
+		Stackstorm
+		RunDeck
+		Apache Airflow
+		Argo
+		NodeRED
+	Security
+		IDS
+			Host-level
+				Ossec
+				Samhain
+			Network
+				Snort
+				Kismet (wireless)
+				Suricata
+		WAF
+			Citrix Netscalar AppFirewall
+		Secrets Management
+			Hashicorp Vault
+			Lyft Confidant
+			Pinterest Knox
+			SPIFFE
+		SSL
+			Let's Encrypt
+		Firewall
+			pfSense
+	API Gateways
+		APIGee
+		ESB (Enterprise Service Bus)
+			IBM Websphere ESB
+			Oracle ESB
+			TIBCO
+		Mulesoft
+		Kong
+		Repose
+		TIBCO Mashery
+		WSO2
+		Service Mesh
+			Istio
+			Linkerd
+	Big Data
+		Hadoop
+			Pig
+			Hive
+			HDFS
+		Riak
+		Apache Spark
+	Caching
+		Backend Cache
+			Memcached
+			Redis
+		Webcache
+			Varnish
+			Squid
+	Messaging
+		MQTT
+			Mosquitto
+		AMQP
+			Apache ActiveMQ
+			RabbitMQ
+			0mq
+			Apache Qpid
+		Apache Kafka
+		Kestrel
+		NATS
+		Apache RocketMQ
+	Source Code Management
+		Code Review
+			Gerrit
+			Crucible
+			[
+			Attlassian
+			]
+			UpSource
+			[
+			Jetbrains
+			]
+			https://github.com/joho/awesome-code-review
+			https://en.wikipedia.org/wiki/Listoftoolsforcode_review
+		Version Control
+			Git
+				Gitlab
+				Bitbucket
+				Github
+			Perforce
+			Subversion
+			Mercurial
+			Clearcase
+			[
+			IBM
+			]
+	ITSM
+		On-call
+			Pagerduty
+		ServiceNow
+		BMC Remedy
+		Moogsoft
+		Jira ServiceDesk
+		Cherwell
+		Capabilities
+			Problem Mgmt
+			Case Mgmt
+			Incident Mgmt
+	Artifact Mgmt
+		Package Repository
+			Cobbler
+			Jfrog Artifactory
+			Pulp
+			Sonatype Nexus
+			Apache Archiva
+			Github Package Registry
+		Build tools
+			Make
+			Java
+				Gradle
+				Maven
+				Ant
+			Ruby
+				Rake
+				Bundler
+			Python
+				pip
+				Pipfile
+				Poetry
+			.NET
+				NuGET
+			Node
+				npm
+				yarn
+	Networking
+		DNS
+			Self-hosted
+				Dnsmasq
+				CoreDNS
+				Bind
+				Bluecat DNS
+				PowerDNS
+			Hosted
+				AWS Route 53
+		IPAM (DDI)
+			Infoblox
+			NetBox
+			Bluecat
+		Webservers
+			Nginx
+			Apache
+			Caddy
+		Loadbalancer
+			NGinx
+			L4
+				Katran (XDP/bpf)
+				IPVS
+					seesaw
+			L7
+				Envoy
+				Traefik
+				proxygen
+				HaProxy
+			hipache
+			vulcan
+			Hardware
+				F5
+	PaaS
+		Hosted
+			Heroku
+		CloudFoundry
+		OpenShift
+	Documentation
+		Generators
+			Mkdocs
+			Docusaurus
+			Jekyll
+			Source Code docs
+				Doxygen
+				Javadoc
+				Sphinx
+		API
+			RAML
+			Swagger
+	Web Frameworks
+		Java
+			Spring
+			Play
+			Dropwizard
+		Python
+			Django
+			Flask
+			Pylons
+		Rust
+			Rocket
+		PHP
+			Laravel
+			CakePHP
+			Zend
+		Go
+		Javascript
+			Frontend
+				Angular
+				React
+				Vue
+				ExtJS (Sensha)
+			Backend
+				Next.js
+	UX
+		Interface design
+			Sketch
+			Invision
+			Framer
+			Figma
+	Serialization
+		REST/JSON
+		Thrift
+		CapNProto
+		Protobuf
+		GRPC
+		XMLRPC
+		Java RMI
+		Dubbo
+	DCIM
+		Netbox
+		Device42
+	Project Management
+		Product Mgmt
+			Aha.io
+		Issue Tracking
+			Jira
+			Trello
+			Rally
+			Asana
+			Redmine
+			exalate
+			[
+			Integration between different products (JIRA, GH issues, etc) so that different companies can interact easily when they have different systems.
+			]
+	Analytics
+		Web Analytics
+			Matomo
+		ML
+			Frameworks
+				Keras
+				Tensorflow
+				MXNet
+				CNTK
+				Gluon
+				Caffe
+				PyTorch
+			Platforms
+				AWS Sagemaker
+				Google Cloud AutoML
+	Infrastructure
+		IaaS
+			Containers
+				Container Images
+					Alpine Linux
+					LinuxKit
+				Container Formats
+					LXC
+					CoreOS
+					Docker
+					RunC
+				Container Orchestrators
+					Hashicorp Nomad
+					Kubernetes (k8s)
+						Rancher
+						CCP
+					Docker Swarm
+					Mesos (+Marathon)
+				Image Registries
+					Quay
+					Artifactory
+					Docker registry
+					Nexus
+			Virtual Machines
+				Hypervisors
+					ESXi
+					KVM
+					Xen
+					QEMU
+				Orchestration
+					Openstack
+					vSphere
+				Image builders
+					Packer
+					Veewee
+			Serverless/FaaS
+				Hosted
+					Google Cloud Functions
+					AWS Lambda
+					Azure Functions
+				Self-hosted
+					IBM OpenWhisk
+					OpenFaaS
+					Kubeless
+					Knative
+	Observability
+		Tracing
+			Zipkin
+			Jaeger
+			OpenTracing
+		Monitoring
+			Ganglia
+			Icinga
+			Nagios
+			Sensu
+			Monit
+			Hosted Solutions
+				SolarWinds
+				PingDom
+				Datadog
+				Honeycomb
+				ThousandEyes
+			Prometheus
+			RDDTool
+				Graphite
+				Cacti
+			Grafana
+			TICK
+				Telegraf
+				[
+				Equivalent of Logstash: aggregation of metrics
+				]
+				InfluxDB
+				Cronograf
+				[
+				Equivalent of Grafana/Kibana: UI
+				]
+				Kapacitor
+				[
+				ETL operations on data: aggregation, continous queries, etc
+				]
+			Application Performance Monitoring
+				New Relic
+				AppD
+				Dynatrace
+				Apache SkyWalking
+			ScienceLogic
+			Error Monitoring
+				Java
+					OverOps
+				OverOps
+				Sentry
+				Rollbar
+			CheckMK
+			NetData
+		Log Collection
+			ELK
+				Elasticsearch
+				Logstash
+				Kibana
+			EFK
+				Fluent
+			Splunk
+			Log Shipper
+				Filebeat
+			Apache Flume
+			Vector
+		Metric Collectors
+			Statsd
+			collectd
