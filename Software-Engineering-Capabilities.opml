@@ -421,6 +421,12 @@ Package Registry"></outline>
                     </outline>
                     <outline text="Hosted">
                         <outline text="AWS Route 53"></outline>
+                        <outline text="CloudFlare"></outline>
+                        <outline text="Google Cloud DNS"></outline>
+                        <outline text="Azure DNS"></outline>
+                        <outline text="Akamai"></outline>
+                        <outline text="ns1"></outline>
+                        <outline text="OpenDNS"></outline>
                     </outline>
                 </outline>
                 <outline text="IPAM (DDI)">
@@ -517,15 +523,19 @@ Package Registry"></outline>
                     <outline text="Figma"></outline>
                 </outline>
             </outline>
-            <outline text="Serialization">
-                <outline text="REST/JSON"></outline>
+            <outline text="RPC">
                 <outline text="Thrift"></outline>
-                <outline text="CapNProto"></outline>
-                <outline text="Protobuf"></outline>
-                <outline text="GRPC"></outline>
+                <outline text="gRPC"></outline>
                 <outline text="XMLRPC"></outline>
                 <outline text="Java RMI"></outline>
                 <outline text="Dubbo"></outline>
+                <outline text="Serialization">
+                    <outline text="REST/JSON"></outline>
+                    <outline text="CapNProto"></outline>
+                    <outline text="Protobuf"></outline>
+                </outline>
+                <outline text="TPIC"></outline>
+                <outline text="DBus"></outline>
             </outline>
             <outline text="DCIM">
                 <outline text="Netbox"></outline>
@@ -674,7 +684,7 @@ Monitoring">
                     <outline text="CheckMK"></outline>
                     <outline text="NetData"></outline>
                 </outline>
-                <outline text="Log Collection">
+                <outline text="Log Collection (SIEM)">
                     <outline text="ELK">
                         <outline text="Elasticsearch"></outline>
                         <outline text="Logstash"></outline>
@@ -689,6 +699,14 @@ Monitoring">
                     </outline>
                     <outline text="Apache Flume"></outline>
                     <outline text="Vector"></outline>
+                    <outline text="LogRhytyhm"></outline>
+                    <outline text="StreamAlert"></outline>
+                    <outline text="Panther"></outline>
+                    <outline text="Syslog">
+                        <outline text="rsyslog"></outline>
+                        <outline text="syslog-ng"></outline>
+                        <outline text=" syslogd " _note="Original BSD syslog daemon"></outline>
+                    </outline>
                 </outline>
                 <outline text="Metric Collectors">
                     <outline text="Statsd"></outline>

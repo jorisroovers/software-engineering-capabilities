@@ -1,4 +1,4 @@
-﻿Software Development
+﻿Software Engineering
 	Databases
 		SQL
 			MSSQL
@@ -328,6 +328,12 @@
 				PowerDNS
 			Hosted
 				AWS Route 53
+				CloudFlare
+				Google Cloud DNS
+				Azure DNS
+				Akamai
+				ns1
+				OpenDNS
 		IPAM (DDI)
 			Infoblox
 			NetBox
@@ -398,15 +404,18 @@
 			Invision
 			Framer
 			Figma
-	Serialization
-		REST/JSON
+	RPC
 		Thrift
-		CapNProto
-		Protobuf
-		GRPC
+		gRPC
 		XMLRPC
 		Java RMI
 		Dubbo
+		Serialization
+			REST/JSON
+			CapNProto
+			Protobuf
+		TPIC
+		DBus
 	DCIM
 		Netbox
 		Device42
@@ -533,7 +542,7 @@
 				Rollbar
 			CheckMK
 			NetData
-		Log Collection
+		Log Collection (SIEM)
 			ELK
 				Elasticsearch
 				Logstash
@@ -545,6 +554,16 @@
 				Filebeat
 			Apache Flume
 			Vector
+			LogRhytyhm
+			StreamAlert
+			Panther
+			Syslog
+				rsyslog
+				syslog-ng
+				syslogd
+				[
+				Original BSD syslog daemon
+				]
 		Metric Collectors
 			Statsd
 			collectd
