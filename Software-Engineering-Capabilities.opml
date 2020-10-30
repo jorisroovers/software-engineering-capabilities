@@ -107,17 +107,6 @@
             <outline text="Testing">
                 <outline text="Non-functional">
                     <outline text="CodeStyle">
-                        <outline text="Linting">
-                            <outline text="Python">
-                                <outline text="pylint"></outline>
-                            </outline>
-                            <outline text="Javascript">
-                                <outline text="eslint"></outline>
-                            </outline>
-                            <outline text="Ansible">
-                                <outline text="ansible-lint"></outline>
-                            </outline>
-                        </outline>
                         <outline text="Static Code Analysis">
                             <outline text="SonarQube"></outline>
                             <outline text="Hosted">
@@ -126,12 +115,14 @@
                             <outline text="Language Specific">
                                 <outline text="Python">
                                     <outline text="Radon"></outline>
+                                    <outline text="Pysa"></outline>
                                 </outline>
                                 <outline text="Java">
                                     <outline text="PMD"></outline>
                                     <outline text="FindBugs"></outline>
                                     <outline text="Checkstyle"></outline>
                                     <outline text="JaCoCo"></outline>
+                                    <outline text="ErrorProne"></outline>
                                 </outline>
                                 <outline text="Ansible">
                                     <outline text="Molecule"></outline>
@@ -139,6 +130,27 @@
                                 </outline>
                                 <outline text="Terraform">
                                     <outline text="Terratest"></outline>
+                                </outline>
+                                <outline text="TypeScript">
+                                    <outline text="Tsetse"></outline>
+                                </outline>
+                                <outline text="C/C++">
+                                    <outline text="Valgrind"></outline>
+                                    <outline text="Google Sanitizers"></outline>
+                                </outline>
+                            </outline>
+                            <outline text="Linting">
+                                <outline text="Python">
+                                    <outline text="pylint"></outline>
+                                </outline>
+                                <outline text="Javascript">
+                                    <outline text="eslint"></outline>
+                                </outline>
+                                <outline text="Ansible">
+                                    <outline text="ansible-lint"></outline>
+                                </outline>
+                                <outline text="golang">
+                                    <outline text="Go vet"></outline>
                                 </outline>
                             </outline>
                         </outline>
@@ -155,21 +167,36 @@
                             </outline>
                             <outline text="Fuzz testing">
                                 <outline text="Codenomicon"></outline>
+                                <outline text="PeachFuzzer"></outline>
+                                <outline text="Oss-fuzz"></outline>
+                                <outline text="HonggFuzz"></outline>
+                                <outline text="American Fuzzy Lop (AFL)"></outline>
+                                <outline text="libFuzzer"></outline>
                             </outline>
                         </outline>
                         <outline text="App-level">
                             <outline text="SQLMap"></outline>
                             <outline text="AppScan (IBM)"></outline>
-                            <outline text="Zgrab"></outline>
+                            <outline text="ZMap/Zgrab"></outline>
+                            <outline text="ZAP"></outline>
+                            <outline text="hetty"></outline>
+                            <outline text="Burpsuite Pro"></outline>
+                            <outline text="Tenable"></outline>
                         </outline>
                         <outline text="Host-level">
                             <outline text="Qualys"></outline>
                             <outline text="Kali Linux"></outline>
+                            <outline text="nmap"></outline>
                         </outline>
                         <outline text="Standards">
                             <outline text="Center for Internet
 Security (CIS) benchmarks" _note="https://github.com/cismirror/benchmarks"></outline>
                             <outline text="OWASP Top 10"></outline>
+                            <outline text="MITTRE ATT&amp;CK"></outline>
+                            <outline text="SANS Top 25"></outline>
+                        </outline>
+                        <outline text="Network">
+                            <outline text="Tenable Nessus"></outline>
                         </outline>
                     </outline>
                     <outline text="Scale">
@@ -208,6 +235,12 @@ Security (CIS) benchmarks" _note="https://github.com/cismirror/benchmarks"></out
                             <outline text="Junit"></outline>
                             <outline text="Mockito"></outline>
                         </outline>
+                        <outline text="C++">
+                            <outline text="GoogleTest"></outline>
+                        </outline>
+                        <outline text="Golang">
+                            <outline text="go2xunit"></outline>
+                        </outline>
                     </outline>
                     <outline text="Network">
                         <outline text="IntentionNet"></outline>
@@ -218,6 +251,9 @@ Security (CIS) benchmarks" _note="https://github.com/cismirror/benchmarks"></out
                         <outline text="Playwright"></outline>
                         <outline text="Cypress"></outline>
                         <outline text="Puppeteer"></outline>
+                    </outline>
+                    <outline text="Configuration Testing">
+                        <outline text="Conftest"></outline>
                     </outline>
                 </outline>
                 <outline text="User testing">
@@ -257,6 +293,7 @@ Management">
                 <outline text="Apache Airflow"></outline>
                 <outline text="Argo"></outline>
                 <outline text="NodeRED"></outline>
+                <outline text="Netflix Conductor"></outline>
             </outline>
             <outline text="Security">
                 <outline text="IDS">
@@ -279,12 +316,16 @@ AppFirewall"></outline>
                     <outline text="Lyft Confidant"></outline>
                     <outline text="Pinterest Knox"></outline>
                     <outline text="SPIFFE"></outline>
+                    <outline text="Openstack Barbican"></outline>
                 </outline>
                 <outline text="SSL">
                     <outline text="Let's Encrypt"></outline>
                 </outline>
                 <outline text="Firewall">
                     <outline text="pfSense"></outline>
+                </outline>
+                <outline text="Safe Proxies">
+                    <outline text="Google Zero Touch Prod"></outline>
                 </outline>
             </outline>
             <outline text="API Gateways">
@@ -304,6 +345,8 @@ Service Bus)">
                     <outline text="Istio"></outline>
                     <outline text="Linkerd"></outline>
                 </outline>
+                <outline text="Tyk"></outline>
+                <outline text="Netflix Zuul"></outline>
             </outline>
             <outline text="Big Data">
                 <outline text="Hadoop">
@@ -347,6 +390,7 @@ Management">
                     <outline text="UpSource" _note="Jetbrains"></outline>
                     <outline text="https://github.com/joho/awesome-code-review"></outline>
                     <outline text="https://en.wikipedia.org/wiki/Listoftoolsforcode_review"></outline>
+                    <outline text="ReviewBoard"></outline>
                 </outline>
                 <outline text="Version Control">
                     <outline text="Git">
@@ -459,6 +503,15 @@ Package Registry"></outline>
                         <outline text="F5"></outline>
                     </outline>
                 </outline>
+                <outline text="Zero Trust">
+                    <outline text="BeyondCorp (Google)"></outline>
+                    <outline text="ISE (Cisco)"></outline>
+                    <outline text="Boundary (Hashicorp)"></outline>
+                </outline>
+                <outline text="Monitoring">
+                    <outline text="Observium"></outline>
+                    <outline text="OpenNMS"></outline>
+                </outline>
             </outline>
             <outline text="PaaS">
                 <outline text="Hosted">
@@ -521,6 +574,7 @@ Package Registry"></outline>
                     <outline text="Invision"></outline>
                     <outline text="Framer"></outline>
                     <outline text="Figma"></outline>
+                    <outline text="Storybook"></outline>
                 </outline>
             </outline>
             <outline text="RPC">
@@ -530,11 +584,18 @@ Package Registry"></outline>
                 <outline text="Java RMI"></outline>
                 <outline text="Dubbo"></outline>
                 <outline text="Serialization">
-                    <outline text="REST/JSON"></outline>
-                    <outline text="CapNProto"></outline>
-                    <outline text="Protobuf"></outline>
+                    <outline text="Schema-ful">
+                        <outline text="CapNProto"></outline>
+                        <outline text="Protobuf"></outline>
+                        <outline text="Flatbuffers"></outline>
+                    </outline>
+                    <outline text="Schema-less">
+                        <outline text="XML"></outline>
+                        <outline text="Json"></outline>
+                        <outline text="Flexbuffers"></outline>
+                    </outline>
                 </outline>
-                <outline text="TPIC"></outline>
+                <outline text="TIPC"></outline>
                 <outline text="DBus"></outline>
             </outline>
             <outline text="DCIM">
@@ -552,6 +613,9 @@ Package Registry"></outline>
                     <outline text="Asana"></outline>
                     <outline text="Redmine"></outline>
                     <outline text="exalate" _note="Integration between different products (JIRA, GH issues, etc) so that different companies can interact easily when they have different systems."></outline>
+                </outline>
+                <outline text="Templates">
+                    <outline text="Architecture Decision Records (ADRs)"></outline>
                 </outline>
             </outline>
             <outline text="Analytics">
@@ -586,12 +650,16 @@ Package Registry"></outline>
                             <outline text="CoreOS"></outline>
                             <outline text="Docker"></outline>
                             <outline text="RunC"></outline>
+                            <outline text="nsjail"></outline>
                         </outline>
                         <outline text="Container Orchestrators">
                             <outline text="Hashicorp Nomad"></outline>
                             <outline text="Kubernetes (k8s)">
                                 <outline text="Rancher"></outline>
                                 <outline text="CCP"></outline>
+                                <outline text="Openshift"></outline>
+                                <outline text="k3s"></outline>
+                                <outline text="microk8s"></outline>
                             </outline>
                             <outline text="Docker Swarm"></outline>
                             <outline text="Mesos (+Marathon)"></outline>
@@ -632,7 +700,25 @@ Package Registry"></outline>
                             <outline text="Knative"></outline>
                         </outline>
                     </outline>
+                    <outline text="Virtual Networking">
+                        <outline text="Switching">
+                            <outline text="OpenVSwitch (OVS)"></outline>
+                            <outline text="VPP"></outline>
+                        </outline>
+                        <outline text="Routing">
+                            <outline text="Quagga"></outline>
+                            <outline text="vCSR"></outline>
+                            <outline text="VPP"></outline>
+                        </outline>
+                    </outline>
+                    <outline text="Virtual Storage">
+                        <outline text="Ceph"></outline>
+                        <outline text="Rook"></outline>
+                        <outline text="Swift"></outline>
+                    </outline>
                 </outline>
+                <outline text="Datacenter
+Infrastructure"></outline>
             </outline>
             <outline text="Observability">
                 <outline text="Tracing">
@@ -641,11 +727,6 @@ Package Registry"></outline>
                     <outline text="OpenTracing"></outline>
                 </outline>
                 <outline text="Monitoring">
-                    <outline text="Ganglia"></outline>
-                    <outline text="Icinga"></outline>
-                    <outline text="Nagios"></outline>
-                    <outline text="Sensu"></outline>
-                    <outline text="Monit"></outline>
                     <outline text="Hosted Solutions">
                         <outline text="SolarWinds"></outline>
                         <outline text="PingDom"></outline>
@@ -653,12 +734,10 @@ Package Registry"></outline>
                         <outline text="Honeycomb"></outline>
                         <outline text="ThousandEyes"></outline>
                     </outline>
-                    <outline text="Prometheus"></outline>
                     <outline text="RDDTool">
                         <outline text="Graphite"></outline>
                         <outline text="Cacti"></outline>
                     </outline>
-                    <outline text="Grafana"></outline>
                     <outline text="TICK">
                         <outline text="Telegraf" _note="Equivalent of Logstash: aggregation of metrics"></outline>
                         <outline text="InfluxDB"></outline>
@@ -668,7 +747,7 @@ Package Registry"></outline>
                     <outline text="Application Performance
 Monitoring">
                         <outline text="New Relic"></outline>
-                        <outline text="AppD"></outline>
+                        <outline text="AppDynamics"></outline>
                         <outline text="Dynatrace"></outline>
                         <outline text="Apache SkyWalking"></outline>
                     </outline>
@@ -681,8 +760,18 @@ Monitoring">
                         <outline text="Sentry"></outline>
                         <outline text="Rollbar"></outline>
                     </outline>
-                    <outline text="CheckMK"></outline>
-                    <outline text="NetData"></outline>
+                    <outline text="Self-hosted">
+                        <outline text="Zabbix"></outline>
+                        <outline text="NetData"></outline>
+                        <outline text="CheckMK"></outline>
+                        <outline text="Grafana"></outline>
+                        <outline text="Prometheus"></outline>
+                        <outline text="Monit"></outline>
+                        <outline text="Sensu"></outline>
+                        <outline text="Nagios"></outline>
+                        <outline text="Icinga"></outline>
+                        <outline text="Ganglia"></outline>
+                    </outline>
                 </outline>
                 <outline text="Log Collection (SIEM)">
                     <outline text="ELK">
@@ -696,6 +785,7 @@ Monitoring">
                     <outline text="Splunk"></outline>
                     <outline text="Log Shipper">
                         <outline text="Filebeat"></outline>
+                        <outline text="Universal Forwarder"></outline>
                     </outline>
                     <outline text="Apache Flume"></outline>
                     <outline text="Vector"></outline>
@@ -711,6 +801,8 @@ Monitoring">
                 <outline text="Metric Collectors">
                     <outline text="Statsd"></outline>
                     <outline text="collectd"></outline>
+                    <outline text="Prometheus
+node_exporter"></outline>
                 </outline>
             </outline>
         </outline>

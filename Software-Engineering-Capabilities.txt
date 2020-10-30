@@ -83,13 +83,6 @@
 	Testing
 		Non-functional
 			CodeStyle
-				Linting
-					Python
-						pylint
-					Javascript
-						eslint
-					Ansible
-						ansible-lint
 				Static Code Analysis
 					SonarQube
 					Hosted
@@ -97,16 +90,32 @@
 					Language Specific
 						Python
 							Radon
+							Pysa
 						Java
 							PMD
 							FindBugs
 							Checkstyle
 							JaCoCo
+							ErrorProne
 						Ansible
 							Molecule
 							Ansible-test
 						Terraform
 							Terratest
+						TypeScript
+							Tsetse
+						C/C++
+							Valgrind
+							Google Sanitizers
+					Linting
+						Python
+							pylint
+						Javascript
+							eslint
+						Ansible
+							ansible-lint
+						golang
+							Go vet
 			Security
 				Code-level
 					Snyk.io
@@ -117,19 +126,33 @@
 						Bandit
 					Fuzz testing
 						Codenomicon
+						PeachFuzzer
+						Oss-fuzz
+						HonggFuzz
+						American Fuzzy Lop (AFL)
+						libFuzzer
 				App-level
 					SQLMap
 					AppScan (IBM)
-					Zgrab
+					ZMap/Zgrab
+					ZAP
+					hetty
+					Burpsuite Pro
+					Tenable
 				Host-level
 					Qualys
 					Kali Linux
+					nmap
 				Standards
 					Center for Internet Security (CIS) benchmarks
 					[
 					https://github.com/cismirror/benchmarks
 					]
 					OWASP Top 10
+					MITTRE ATT&CK
+					SANS Top 25
+				Network
+					Tenable Nessus
 			Scale
 				Taurus
 				JMeter
@@ -158,6 +181,10 @@
 				Java
 					Junit
 					Mockito
+				C++
+					GoogleTest
+				Golang
+					go2xunit
 			Network
 				IntentionNet
 				BatFish
@@ -166,6 +193,8 @@
 				Playwright
 				Cypress
 				Puppeteer
+			Configuration Testing
+				Conftest
 		User testing
 			https://www.usertesting.com/
 	Configuration Management
@@ -195,6 +224,7 @@
 		Apache Airflow
 		Argo
 		NodeRED
+		Netflix Conductor
 	Security
 		IDS
 			Host-level
@@ -211,10 +241,13 @@
 			Lyft Confidant
 			Pinterest Knox
 			SPIFFE
+			Openstack Barbican
 		SSL
 			Let's Encrypt
 		Firewall
 			pfSense
+		Safe Proxies
+			Google Zero Touch Prod
 	API Gateways
 		APIGee
 		ESB (Enterprise Service Bus)
@@ -229,6 +262,8 @@
 		Service Mesh
 			Istio
 			Linkerd
+		Tyk
+		Netflix Zuul
 	Big Data
 		Hadoop
 			Pig
@@ -268,6 +303,7 @@
 			]
 			https://github.com/joho/awesome-code-review
 			https://en.wikipedia.org/wiki/Listoftoolsforcode_review
+			ReviewBoard
 		Version Control
 			Git
 				Gitlab
@@ -357,6 +393,13 @@
 			vulcan
 			Hardware
 				F5
+		Zero Trust
+			BeyondCorp (Google)
+			ISE (Cisco)
+			Boundary (Hashicorp)
+		Monitoring
+			Observium
+			OpenNMS
 	PaaS
 		Hosted
 			Heroku
@@ -404,6 +447,7 @@
 			Invision
 			Framer
 			Figma
+			Storybook
 	RPC
 		Thrift
 		gRPC
@@ -411,10 +455,15 @@
 		Java RMI
 		Dubbo
 		Serialization
-			REST/JSON
-			CapNProto
-			Protobuf
-		TPIC
+			Schema-ful
+				CapNProto
+				Protobuf
+				Flatbuffers
+			Schema-less
+				XML
+				Json
+				Flexbuffers
+		TIPC
 		DBus
 	DCIM
 		Netbox
@@ -432,6 +481,8 @@
 			[
 			Integration between different products (JIRA, GH issues, etc) so that different companies can interact easily when they have different systems.
 			]
+		Templates
+			Architecture Decision Records (ADRs)
 	Analytics
 		Web Analytics
 			Matomo
@@ -458,11 +509,15 @@
 					CoreOS
 					Docker
 					RunC
+					nsjail
 				Container Orchestrators
 					Hashicorp Nomad
 					Kubernetes (k8s)
 						Rancher
 						CCP
+						Openshift
+						k3s
+						microk8s
 					Docker Swarm
 					Mesos (+Marathon)
 				Image Registries
@@ -492,28 +547,34 @@
 					OpenFaaS
 					Kubeless
 					Knative
+			Virtual Networking
+				Switching
+					OpenVSwitch (OVS)
+					VPP
+				Routing
+					Quagga
+					vCSR
+					VPP
+			Virtual Storage
+				Ceph
+				Rook
+				Swift
+		Datacenter Infrastructure
 	Observability
 		Tracing
 			Zipkin
 			Jaeger
 			OpenTracing
 		Monitoring
-			Ganglia
-			Icinga
-			Nagios
-			Sensu
-			Monit
 			Hosted Solutions
 				SolarWinds
 				PingDom
 				Datadog
 				Honeycomb
 				ThousandEyes
-			Prometheus
 			RDDTool
 				Graphite
 				Cacti
-			Grafana
 			TICK
 				Telegraf
 				[
@@ -530,7 +591,7 @@
 				]
 			Application Performance Monitoring
 				New Relic
-				AppD
+				AppDynamics
 				Dynatrace
 				Apache SkyWalking
 			ScienceLogic
@@ -540,8 +601,17 @@
 				OverOps
 				Sentry
 				Rollbar
-			CheckMK
-			NetData
+			Self-hosted
+				Zabbix
+				NetData
+				CheckMK
+				Grafana
+				Prometheus
+				Monit
+				Sensu
+				Nagios
+				Icinga
+				Ganglia
 		Log Collection (SIEM)
 			ELK
 				Elasticsearch
@@ -552,6 +622,7 @@
 			Splunk
 			Log Shipper
 				Filebeat
+				Universal Forwarder
 			Apache Flume
 			Vector
 			LogRhytyhm
@@ -567,3 +638,4 @@
 		Metric Collectors
 			Statsd
 			collectd
+			Prometheus node_exporter
