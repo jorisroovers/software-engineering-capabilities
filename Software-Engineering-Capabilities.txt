@@ -80,6 +80,7 @@
 			Dex
 			Shibboleth
 			Gluu
+			Ory Kratos
 	Testing
 		Non-functional
 			CodeStyle
@@ -97,6 +98,7 @@
 							Checkstyle
 							JaCoCo
 							ErrorProne
+							Cobertura
 						Ansible
 							Molecule
 							Ansible-test
@@ -131,6 +133,10 @@
 						HonggFuzz
 						American Fuzzy Lop (AFL)
 						libFuzzer
+					Container Scanning
+						Trivy
+						Clair
+						Anchore
 				App-level
 					SQLMap
 					AppScan (IBM)
@@ -139,16 +145,22 @@
 					hetty
 					Burpsuite Pro
 					Tenable
+					Osmedeus
 				Host-level
 					Qualys
 					Kali Linux
 					nmap
+					Lynis
+					[
+					Recommended, is like a full Linux audit
+					]
 				Standards
 					Center for Internet Security (CIS) benchmarks
 					[
 					https://github.com/cismirror/benchmarks
 					]
 					OWASP Top 10
+						OWASP Cheatsheets
 					MITTRE ATT&CK
 					SANS Top 25
 				Network
@@ -217,6 +229,9 @@
 			HOCON
 			HCL
 			Dahll
+			ytt
+		Fabric
+		PyInfra
 	Orchestration (Workflow Engine)
 		Openstack Mistral
 		Stackstorm
@@ -225,6 +240,7 @@
 		Argo
 		NodeRED
 		Netflix Conductor
+		n8n
 	Security
 		IDS
 			Host-level
@@ -234,6 +250,7 @@
 				Snort
 				Kismet (wireless)
 				Suricata
+				Zeek
 		WAF
 			Citrix Netscalar AppFirewall
 		Secrets Management
@@ -290,6 +307,9 @@
 		Kestrel
 		NATS
 		Apache RocketMQ
+		Nakadi
+		Apache Pulsar
+		NSQ
 	Source Code Management
 		Code Review
 			Gerrit
@@ -354,6 +374,11 @@
 			Node
 				npm
 				yarn
+			Containers
+				Build packs
+				Earthly
+				Buildah
+				Buildkit
 	Networking
 		DNS
 			Self-hosted
@@ -417,6 +442,7 @@
 		API
 			RAML
 			Swagger
+			OpenAPI
 	Web Frameworks
 		Java
 			Spring
@@ -465,9 +491,12 @@
 				Flexbuffers
 		TIPC
 		DBus
+		Client side lib
+			Netflix IPC
 	DCIM
 		Netbox
 		Device42
+		Sunbird
 	Project Management
 		Product Mgmt
 			Aha.io
@@ -559,6 +588,9 @@
 				Ceph
 				Rook
 				Swift
+			Bare Metal
+				Tinkerbell
+				Ironic
 		Datacenter Infrastructure
 	Observability
 		Tracing
@@ -635,7 +667,28 @@
 				[
 				Original BSD syslog daemon
 				]
+			Search-backend
+				Sonic
+				ElasticSearch
+			Loki
 		Metric Collectors
 			Statsd
 			collectd
 			Prometheus node_exporter
+	Capacity Management
+		Optaplanner
+	Runtimes
+		Java
+			OpenJDK
+			Azul JRE
+			GraalVM
+			Oracle Java (Hotspot)
+		Python
+			CPython
+			PyPy
+	Service Catalog
+		DeployHub
+		Cisco Cloud Center
+	Editors
+		API
+			APICurio Studio

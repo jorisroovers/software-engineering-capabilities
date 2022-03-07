@@ -102,6 +102,7 @@
                     <outline text="Dex"></outline>
                     <outline text="Shibboleth"></outline>
                     <outline text="Gluu"></outline>
+                    <outline text="Ory Kratos"></outline>
                 </outline>
             </outline>
             <outline text="Testing">
@@ -123,6 +124,7 @@
                                     <outline text="Checkstyle"></outline>
                                     <outline text="JaCoCo"></outline>
                                     <outline text="ErrorProne"></outline>
+                                    <outline text="Cobertura"></outline>
                                 </outline>
                                 <outline text="Ansible">
                                     <outline text="Molecule"></outline>
@@ -173,6 +175,11 @@
                                 <outline text="American Fuzzy Lop (AFL)"></outline>
                                 <outline text="libFuzzer"></outline>
                             </outline>
+                            <outline text="Container Scanning">
+                                <outline text="Trivy"></outline>
+                                <outline text="Clair"></outline>
+                                <outline text="Anchore"></outline>
+                            </outline>
                         </outline>
                         <outline text="App-level">
                             <outline text="SQLMap"></outline>
@@ -182,16 +189,20 @@
                             <outline text="hetty"></outline>
                             <outline text="Burpsuite Pro"></outline>
                             <outline text="Tenable"></outline>
+                            <outline text="Osmedeus"></outline>
                         </outline>
                         <outline text="Host-level">
                             <outline text="Qualys"></outline>
                             <outline text="Kali Linux"></outline>
                             <outline text="nmap"></outline>
+                            <outline text="Lynis" _note="Recommended, is like a full Linux audit"></outline>
                         </outline>
                         <outline text="Standards">
                             <outline text="Center for Internet
 Security (CIS) benchmarks" _note="https://github.com/cismirror/benchmarks"></outline>
-                            <outline text="OWASP Top 10"></outline>
+                            <outline text="OWASP Top 10">
+                                <outline text="OWASP Cheatsheets"></outline>
+                            </outline>
                             <outline text="MITTRE ATT&amp;CK"></outline>
                             <outline text="SANS Top 25"></outline>
                         </outline>
@@ -284,7 +295,10 @@ Management">
                     <outline text="HOCON"></outline>
                     <outline text="HCL"></outline>
                     <outline text="Dahll"></outline>
+                    <outline text="ytt"></outline>
                 </outline>
+                <outline text="Fabric"></outline>
+                <outline text="PyInfra"></outline>
             </outline>
             <outline text="Orchestration (Workflow Engine)">
                 <outline text="Openstack Mistral"></outline>
@@ -294,6 +308,7 @@ Management">
                 <outline text="Argo"></outline>
                 <outline text="NodeRED"></outline>
                 <outline text="Netflix Conductor"></outline>
+                <outline text="n8n"></outline>
             </outline>
             <outline text="Security">
                 <outline text="IDS">
@@ -305,6 +320,7 @@ Management">
                         <outline text="Snort"></outline>
                         <outline text="Kismet (wireless)"></outline>
                         <outline text="Suricata"></outline>
+                        <outline text="Zeek"></outline>
                     </outline>
                 </outline>
                 <outline text="WAF">
@@ -381,6 +397,9 @@ Service Bus)">
                 <outline text="Kestrel"></outline>
                 <outline text="NATS"></outline>
                 <outline text="Apache RocketMQ"></outline>
+                <outline text="Nakadi"></outline>
+                <outline text="Apache Pulsar"></outline>
+                <outline text="NSQ"></outline>
             </outline>
             <outline text="Source Code
 Management">
@@ -451,6 +470,12 @@ Package Registry"></outline>
                     <outline text="Node">
                         <outline text="npm"></outline>
                         <outline text="yarn"></outline>
+                    </outline>
+                    <outline text="Containers">
+                        <outline text="Build packs"></outline>
+                        <outline text="Earthly"></outline>
+                        <outline text="Buildah"></outline>
+                        <outline text="Buildkit"></outline>
                     </outline>
                 </outline>
             </outline>
@@ -534,6 +559,7 @@ Package Registry"></outline>
                 <outline text="API">
                     <outline text="RAML"></outline>
                     <outline text="Swagger"></outline>
+                    <outline text="OpenAPI"></outline>
                 </outline>
             </outline>
             <outline text="Web Frameworks">
@@ -597,10 +623,14 @@ Package Registry"></outline>
                 </outline>
                 <outline text="TIPC"></outline>
                 <outline text="DBus"></outline>
+                <outline text="Client side lib">
+                    <outline text="Netflix IPC"></outline>
+                </outline>
             </outline>
             <outline text="DCIM">
                 <outline text="Netbox"></outline>
                 <outline text="Device42"></outline>
+                <outline text="Sunbird"></outline>
             </outline>
             <outline text="Project Management">
                 <outline text="Product Mgmt">
@@ -716,6 +746,10 @@ Package Registry"></outline>
                         <outline text="Rook"></outline>
                         <outline text="Swift"></outline>
                     </outline>
+                    <outline text="Bare Metal">
+                        <outline text="Tinkerbell"></outline>
+                        <outline text="Ironic"></outline>
+                    </outline>
                 </outline>
                 <outline text="Datacenter
 Infrastructure"></outline>
@@ -797,12 +831,41 @@ Monitoring">
                         <outline text="syslog-ng"></outline>
                         <outline text=" syslogd " _note="Original BSD syslog daemon"></outline>
                     </outline>
+                    <outline text="Search-backend">
+                        <outline text="Sonic"></outline>
+                        <outline text="ElasticSearch"></outline>
+                    </outline>
+                    <outline text="Loki"></outline>
                 </outline>
                 <outline text="Metric Collectors">
                     <outline text="Statsd"></outline>
                     <outline text="collectd"></outline>
                     <outline text="Prometheus
 node_exporter"></outline>
+                </outline>
+            </outline>
+            <outline text="Capacity Management">
+                <outline text="Optaplanner"></outline>
+            </outline>
+            <outline text="Runtimes">
+                <outline text="Java">
+                    <outline text="OpenJDK"></outline>
+                    <outline text="Azul JRE"></outline>
+                    <outline text="GraalVM"></outline>
+                    <outline text="Oracle Java (Hotspot)"></outline>
+                </outline>
+                <outline text="Python">
+                    <outline text="CPython"></outline>
+                    <outline text="PyPy"></outline>
+                </outline>
+            </outline>
+            <outline text="Service Catalog">
+                <outline text="DeployHub"></outline>
+                <outline text="Cisco Cloud Center"></outline>
+            </outline>
+            <outline text="Editors">
+                <outline text="API">
+                    <outline text="APICurio Studio"></outline>
                 </outline>
             </outline>
         </outline>
