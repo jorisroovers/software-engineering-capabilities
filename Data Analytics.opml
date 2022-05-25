@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Data Analytics</title>
+    </head>
+    <body>
+        <outline text="Data Analytics">
+            <outline text="Big Data">
+                <outline text="Hadoop">
+                    <outline text="Pig"></outline>
+                    <outline text="Hive"></outline>
+                    <outline text="HDFS"></outline>
+                </outline>
+                <outline text="Apache Spark"></outline>
+                <outline text="Riak"></outline>
+            </outline>
+            <outline text="ML">
+                <outline text="Frameworks">
+                    <outline text="Keras"></outline>
+                    <outline text="Tensorflow"></outline>
+                    <outline text="MXNet"></outline>
+                    <outline text="CNTK"></outline>
+                    <outline text="Gluon"></outline>
+                    <outline text="Caffe"></outline>
+                    <outline text="PyTorch"></outline>
+                </outline>
+                <outline text="Platforms">
+                    <outline text="AWS Sagemaker"></outline>
+                    <outline text="Google Cloud AutoML"></outline>
+                </outline>
+            </outline>
+            <outline text="Data Visualization">
+                <outline text="Apache Superset"></outline>
+                <outline text="Tableau"></outline>
+                <outline text="metabase"></outline>
+            </outline>
+            <outline text="Web Analytics">
+                <outline text="Matomo"></outline>
+            </outline>
+            <outline text="Exploration">
+                <outline text="OpenRefine"></outline>
+                <outline text="DataSette"></outline>
+                <outline text="CLI Tools">
+                    <outline text="CSV">
+                        <outline text="Tad"></outline>
+                        <outline text="XSV"></outline>
+                        <outline text="tsv-utils"></outline>
+                    </outline>
+                    <outline text="miller"></outline>
+                    <outline text="JSON">
+                        <outline text="fx"></outline>
+                        <outline text="jless"></outline>
+                        <outline text="gron"></outline>
+                        <outline text="jq"></outline>
+                    </outline>
+                    <outline text="visidata"></outline>
+                    <outline text="data-as-json">
+                        <outline text="textql"></outline>
+                        <outline text="q"></outline>
+                        <outline text="dsq"></outline>
+                    </outline>
+                </outline>
+            </outline>
+        </outline>
+    </body>
+</opml>

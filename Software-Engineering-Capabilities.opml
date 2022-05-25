@@ -103,6 +103,10 @@
                     <outline text="Shibboleth"></outline>
                     <outline text="Gluu"></outline>
                     <outline text="Ory Kratos"></outline>
+                    <outline text="FreeIPA"></outline>
+                </outline>
+                <outline text="Network Authentication">
+                    <outline text="Kerberos"></outline>
                 </outline>
             </outline>
             <outline text="Testing">
@@ -296,9 +300,13 @@ Management">
                     <outline text="HCL"></outline>
                     <outline text="Dahll"></outline>
                     <outline text="ytt"></outline>
+                    <outline text="Data manipulation">
+                        <outline text="dasel"></outline>
+                    </outline>
                 </outline>
                 <outline text="Fabric"></outline>
                 <outline text="PyInfra"></outline>
+                <outline text="kpt"></outline>
             </outline>
             <outline text="Orchestration (Workflow Engine)">
                 <outline text="Openstack Mistral"></outline>
@@ -363,15 +371,6 @@ Service Bus)">
                 </outline>
                 <outline text="Tyk"></outline>
                 <outline text="Netflix Zuul"></outline>
-            </outline>
-            <outline text="Big Data">
-                <outline text="Hadoop">
-                    <outline text="Pig"></outline>
-                    <outline text="Hive"></outline>
-                    <outline text="HDFS"></outline>
-                </outline>
-                <outline text="Riak"></outline>
-                <outline text="Apache Spark"></outline>
             </outline>
             <outline text="Caching">
                 <outline text="Backend Cache">
@@ -480,24 +479,7 @@ Package Registry"></outline>
                 </outline>
             </outline>
             <outline text="Networking">
-                <outline text="DNS">
-                    <outline text="Self-hosted">
-                        <outline text="Dnsmasq"></outline>
-                        <outline text="CoreDNS"></outline>
-                        <outline text="Bind"></outline>
-                        <outline text="Bluecat DNS"></outline>
-                        <outline text="PowerDNS"></outline>
-                    </outline>
-                    <outline text="Hosted">
-                        <outline text="AWS Route 53"></outline>
-                        <outline text="CloudFlare"></outline>
-                        <outline text="Google Cloud DNS"></outline>
-                        <outline text="Azure DNS"></outline>
-                        <outline text="Akamai"></outline>
-                        <outline text="ns1"></outline>
-                        <outline text="OpenDNS"></outline>
-                    </outline>
-                </outline>
+                <outline text="DNS"></outline>
                 <outline text="IPAM (DDI)">
                     <outline text="Infoblox"></outline>
                     <outline text="NetBox"></outline>
@@ -648,7 +630,7 @@ Package Registry"></outline>
                     <outline text="Architecture Decision Records (ADRs)"></outline>
                 </outline>
             </outline>
-            <outline text="Analytics">
+            <outline text="Data Analytics">
                 <outline text="Web Analytics">
                     <outline text="Matomo"></outline>
                 </outline>
@@ -666,6 +648,21 @@ Package Registry"></outline>
                         <outline text="AWS Sagemaker"></outline>
                         <outline text="Google Cloud AutoML"></outline>
                     </outline>
+                </outline>
+                <outline text="Big Data">
+                    <outline text="Hadoop">
+                        <outline text="Pig"></outline>
+                        <outline text="Hive"></outline>
+                        <outline text="HDFS"></outline>
+                    </outline>
+                    <outline text="Apache Spark"></outline>
+                    <outline text="Riak"></outline>
+                </outline>
+                <outline text="Data Exploration">
+                    <outline text="OpenRefine"></outline>
+                    <outline text="Apache Superset"></outline>
+                    <outline text="Tableau"></outline>
+                    <outline text="metabase"></outline>
                 </outline>
             </outline>
             <outline text="Infrastructure">
@@ -867,6 +864,10 @@ node_exporter"></outline>
                 <outline text="API">
                     <outline text="APICurio Studio"></outline>
                 </outline>
+            </outline>
+            <outline text="Diagramming">
+                <outline text="Mermaid"></outline>
+                <outline text="yED"></outline>
             </outline>
         </outline>
     </body>

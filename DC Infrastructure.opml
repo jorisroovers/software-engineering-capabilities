@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>DC Infrastructure</title>
+    </head>
+    <body>
+        <outline text="DC Infrastructure">
+            <outline text="PDU">
+                <outline text="ServerTech"></outline>
+                <outline text="LeGrand"></outline>
+            </outline>
+            <outline text="Routing">
+                <outline text="Cisco">
+                    <outline text="ASR1000"></outline>
+                    <outline text="ASR9000"></outline>
+                </outline>
+            </outline>
+            <outline text="Switching">
+                <outline text="Cisco">
+                    <outline text="Nexus 9000"></outline>
+                    <outline text="Nexus 2000"></outline>
+                    <outline text="Nexus 7000"></outline>
+                </outline>
+            </outline>
+            <outline text="Compute">
+                <outline text="Cisco">
+                    <outline text="UCS"></outline>
+                </outline>
+                <outline text="HP"></outline>
+            </outline>
+            <outline text="Hyperconverged">
+                <outline text="Cisco">
+                    <outline text="Hyperflex"></outline>
+                </outline>
+                <outline text="Nutanix"></outline>
+            </outline>
+            <outline text="OOB">
+                <outline text="OpenGear"></outline>
+            </outline>
+            <outline text="Racks">
+                <outline text="Eaton"></outline>
+                <outline text="Rittal"></outline>
+            </outline>
+            <outline text="Cabling">
+                <outline text="Fibre">
+                    <outline text="Active"></outline>
+                    <outline text="Passive"></outline>
+                </outline>
+                <outline text="Copper"></outline>
+            </outline>
+            <outline text="Security">
+                <outline text="Firewall/IDS/etc">
+                    <outline text="Cisco"></outline>
+                </outline>
+            </outline>
+            <outline text="Loadbalancer"></outline>
+            <outline text="Tap">
+                <outline text="Gigamon"></outline>
+            </outline>
+            <outline text="Datacenter Providers">
+                <outline text="Equinix"></outline>
+                <outline text="Digital Realty"></outline>
+                <outline text="Cologix"></outline>
+                <outline text="China Telecom"></outline>
+                <outline text="CenturyLink"></outline>
+                <outline text="cogent"></outline>
+                <outline text="ZenLayer"></outline>
+            </outline>
+            <outline text="Internet Exchanges (IXP)">
+                <outline text="AMS-IXP"></outline>
+            </outline>
+        </outline>
+    </body>
+</opml>
