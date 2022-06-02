@@ -33,19 +33,18 @@
                 <outline text="Apache Superset"></outline>
                 <outline text="Tableau"></outline>
                 <outline text="metabase"></outline>
+                <outline text="PowerBI"></outline>
             </outline>
             <outline text="Web Analytics">
                 <outline text="Matomo"></outline>
+                <outline text="Google Analytics"></outline>
+                <outline text="Amplitude"></outline>
             </outline>
-            <outline text="Exploration">
-                <outline text="OpenRefine"></outline>
-                <outline text="DataSette"></outline>
+            <outline text="Wrangling">
+                <outline text="Exploration">
+                    <outline text="DataSette"></outline>
+                </outline>
                 <outline text="CLI Tools">
-                    <outline text="CSV">
-                        <outline text="Tad"></outline>
-                        <outline text="XSV"></outline>
-                        <outline text="tsv-utils"></outline>
-                    </outline>
                     <outline text="miller"></outline>
                     <outline text="JSON">
                         <outline text="fx"></outline>
@@ -59,6 +58,20 @@
                         <outline text="q"></outline>
                         <outline text="dsq"></outline>
                     </outline>
+                </outline>
+                <outline text="CSV">
+                    <outline text="GUI">
+                        <outline text="ModernCSV"></outline>
+                        <outline text="Tad"></outline>
+                    </outline>
+                    <outline text="CLI">
+                        <outline text="tsv-utils"></outline>
+                        <outline text="xsv"></outline>
+                    </outline>
+                </outline>
+                <outline text="OpenRefine"></outline>
+                <outline text="diff-tools">
+                    <outline text="graphtage"></outline>
                 </outline>
             </outline>
         </outline>
