@@ -1,0 +1,841 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Software Engineering</title>
+    </head>
+    <body>
+        <outline text="Software Engineering">
+            <outline text="Databases">
+                <outline text="SQL">
+                    <outline text="MSSQL"></outline>
+                    <outline text="MySQL">
+                        <outline text="MariaDB"></outline>
+                    </outline>
+                    <outline text="PostgreSQL"></outline>
+                    <outline text="OracleDB"></outline>
+                    <outline text="SQLite"></outline>
+                </outline>
+                <outline text="NoSQL">
+                    <outline text="Key-Value">
+                        <outline text="Redis"></outline>
+                        <outline text="Consul"></outline>
+                        <outline text="Etcd"></outline>
+                        <outline text="Zookeeper"></outline>
+                    </outline>
+                    <outline text="Time-Series">
+                        <outline text="InfluxDB"></outline>
+                        <outline text="Graphite"></outline>
+                        <outline text="OpenTSDB"></outline>
+                        <outline text="Prometheus"></outline>
+                    </outline>
+                    <outline text="Graph">
+                        <outline text="Neo4J"></outline>
+                        <outline text="Dgraph.io"></outline>
+                    </outline>
+                    <outline text="Document">
+                        <outline text="CouchDB"></outline>
+                        <outline text="MongoDB"></outline>
+                        <outline text="RethinkDB"></outline>
+                    </outline>
+                    <outline text="Embedded (on-disk)">
+                        <outline text="LevelDB">
+                            <outline text="RocksDB" _note="RocksDB is the most popular and probably the most efficient key-value store in the market. It originated in Google as SSTable which formed the basis for Bigtable, then got released as LevelDB. Facebook then improved LevelDB to add concurrency and optimizations for SSDs and released that as RocksDB. Work on RocksDB has been continuously going on for many years now, and it’s used in production at Facebook and many other companies."></outline>
+                        </outline>
+                        <outline text="Badger"></outline>
+                    </outline>
+                    <outline text="Column-based">
+                        <outline text="Cassandra"></outline>
+                        <outline text="Bigtable"></outline>
+                    </outline>
+                </outline>
+                <outline text="Real-time Push">
+                    <outline text="Firebase"></outline>
+                    <outline text="Meteor"></outline>
+                    <outline text="RethinkDB"></outline>
+                </outline>
+                <outline text="DB Migrations">
+                    <outline text="Liquibase"></outline>
+                    <outline text="Carbon5"></outline>
+                    <outline text="Django Migrations"></outline>
+                    <outline text="Flyway"></outline>
+                    <outline text="Sqitch"></outline>
+                    <outline text="DBMate"></outline>
+                    <outline text="Alembic (SQLAlchemy)"></outline>
+                </outline>
+                <outline text="DB Replication">
+                    <outline text="Shareplex"></outline>
+                    <outline text="Oracle RAC"></outline>
+                    <outline text="SymmetricDS"></outline>
+                </outline>
+                <outline text="ORM">
+                    <outline text="Hibernate"></outline>
+                    <outline text="Django ORM"></outline>
+                    <outline text="ActiveRecord"></outline>
+                    <outline text="SQLAlchemy"></outline>
+                </outline>
+            </outline>
+            <outline text="Automation Servers">
+                <outline text="Self-hosted">
+                    <outline text="GoCD"></outline>
+                    <outline text="uDeploy"></outline>
+                    <outline text="Spinnaker"></outline>
+                    <outline text="Capistrano"></outline>
+                    <outline text="Openstack Zuul"></outline>
+                    <outline text="Jetbrains Teamcity"></outline>
+                    <outline text="gitlab"></outline>
+                    <outline text="Jenkins"></outline>
+                </outline>
+                <outline text="Hosted">
+                    <outline text="CircleCI"></outline>
+                    <outline text="Concourse"></outline>
+                    <outline text="Shipped"></outline>
+                    <outline text="Atlassian Bamboo"></outline>
+                </outline>
+            </outline>
+            <outline text="Identity">
+                <outline text="Hosted">
+                    <outline text="Ping"></outline>
+                    <outline text="Okta"></outline>
+                </outline>
+                <outline text="Self-hosted">
+                    <outline text="Forgerock"></outline>
+                    <outline text="Keycloak"></outline>
+                    <outline text="Dex"></outline>
+                    <outline text="Shibboleth"></outline>
+                    <outline text="Gluu"></outline>
+                    <outline text="Ory Kratos"></outline>
+                    <outline text="FreeIPA"></outline>
+                </outline>
+                <outline text="Network Authentication">
+                    <outline text="Kerberos"></outline>
+                </outline>
+            </outline>
+            <outline text="Testing">
+                <outline text="Non-functional">
+                    <outline text="CodeStyle">
+                        <outline text="Static Code Analysis">
+                            <outline text="SonarQube"></outline>
+                            <outline text="Hosted">
+                                <outline text="CodeClimate"></outline>
+                            </outline>
+                            <outline text="Language Specific">
+                                <outline text="Python">
+                                    <outline text="Radon"></outline>
+                                    <outline text="Pysa"></outline>
+                                </outline>
+                                <outline text="Java">
+                                    <outline text="PMD"></outline>
+                                    <outline text="FindBugs"></outline>
+                                    <outline text="Checkstyle"></outline>
+                                    <outline text="JaCoCo"></outline>
+                                    <outline text="ErrorProne"></outline>
+                                    <outline text="Cobertura"></outline>
+                                </outline>
+                                <outline text="Ansible">
+                                    <outline text="Molecule"></outline>
+                                    <outline text="Ansible-test"></outline>
+                                </outline>
+                                <outline text="Terraform">
+                                    <outline text="Terratest"></outline>
+                                </outline>
+                                <outline text="TypeScript">
+                                    <outline text="Tsetse"></outline>
+                                </outline>
+                                <outline text="C/C++">
+                                    <outline text="Valgrind"></outline>
+                                    <outline text="Google Sanitizers"></outline>
+                                </outline>
+                            </outline>
+                            <outline text="Linting">
+                                <outline text="Python">
+                                    <outline text="pylint"></outline>
+                                </outline>
+                                <outline text="Javascript">
+                                    <outline text="eslint"></outline>
+                                </outline>
+                                <outline text="Ansible">
+                                    <outline text="ansible-lint"></outline>
+                                </outline>
+                                <outline text="golang">
+                                    <outline text="Go vet"></outline>
+                                </outline>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="Security">
+                        <outline text="Code-level">
+                            <outline text="Snyk.io"></outline>
+                            <outline text="Checkmarx"></outline>
+                            <outline text="Dependency Scanning">
+                                <outline text="Blackduck"></outline>
+                            </outline>
+                            <outline text="Python">
+                                <outline text="Bandit"></outline>
+                            </outline>
+                            <outline text="Fuzz testing">
+                                <outline text="Codenomicon"></outline>
+                                <outline text="PeachFuzzer"></outline>
+                                <outline text="Oss-fuzz"></outline>
+                                <outline text="HonggFuzz"></outline>
+                                <outline text="American Fuzzy Lop (AFL)"></outline>
+                                <outline text="libFuzzer"></outline>
+                            </outline>
+                            <outline text="Container Scanning">
+                                <outline text="Trivy"></outline>
+                                <outline text="Clair"></outline>
+                                <outline text="Anchore"></outline>
+                            </outline>
+                        </outline>
+                        <outline text="App-level">
+                            <outline text="SQLMap"></outline>
+                            <outline text="AppScan (IBM)"></outline>
+                            <outline text="ZMap/Zgrab"></outline>
+                            <outline text="ZAP"></outline>
+                            <outline text="hetty"></outline>
+                            <outline text="Burpsuite Pro"></outline>
+                            <outline text="Tenable"></outline>
+                            <outline text="Osmedeus"></outline>
+                        </outline>
+                        <outline text="Host-level">
+                            <outline text="Qualys"></outline>
+                            <outline text="Kali Linux"></outline>
+                            <outline text="nmap"></outline>
+                            <outline text="Lynis" _note="Recommended, is like a full Linux audit"></outline>
+                        </outline>
+                        <outline text="Standards">
+                            <outline text="Center for Internet
+Security (CIS) benchmarks" _note="https://github.com/cismirror/benchmarks"></outline>
+                            <outline text="OWASP Top 10">
+                                <outline text="OWASP Cheatsheets"></outline>
+                            </outline>
+                            <outline text="MITTRE ATT&amp;CK"></outline>
+                            <outline text="SANS Top 25"></outline>
+                        </outline>
+                        <outline text="Network">
+                            <outline text="Tenable Nessus"></outline>
+                        </outline>
+                    </outline>
+                    <outline text="Scale">
+                        <outline text="Taurus"></outline>
+                        <outline text="JMeter"></outline>
+                        <outline text="ApacheBench"></outline>
+                        <outline text="K6"></outline>
+                    </outline>
+                </outline>
+                <outline text="Functional">
+                    <outline text="Host-level">
+                        <outline text="Testinfra"></outline>
+                        <outline text="Goss"></outline>
+                        <outline text="Serverspec"></outline>
+                        <outline text="Inspec"></outline>
+                    </outline>
+                    <outline text="Container">
+                        <outline text="container-structure-test"></outline>
+                    </outline>
+                    <outline text="Unit testing">
+                        <outline text="Python">
+                            <outline text="pytest"></outline>
+                            <outline text="nose"></outline>
+                            <outline text="tox"></outline>
+                            <outline text="unittest"></outline>
+                        </outline>
+                        <outline text="Javascript">
+                            <outline text="Mocha"></outline>
+                            <outline text="ReactJS">
+                                <outline text="Jest"></outline>
+                            </outline>
+                            <outline text="Chai"></outline>
+                            <outline text="Karma (test runner)"></outline>
+                        </outline>
+                        <outline text="Java">
+                            <outline text="Junit"></outline>
+                            <outline text="Mockito"></outline>
+                        </outline>
+                        <outline text="C++">
+                            <outline text="GoogleTest"></outline>
+                        </outline>
+                        <outline text="Golang">
+                            <outline text="go2xunit"></outline>
+                        </outline>
+                    </outline>
+                    <outline text="Network">
+                        <outline text="IntentionNet"></outline>
+                        <outline text="BatFish"></outline>
+                    </outline>
+                    <outline text="Browser Testing ">
+                        <outline text="Selenium"></outline>
+                        <outline text="Playwright"></outline>
+                        <outline text="Cypress"></outline>
+                        <outline text="Puppeteer"></outline>
+                    </outline>
+                    <outline text="Configuration Testing">
+                        <outline text="Conftest"></outline>
+                    </outline>
+                </outline>
+                <outline text="User testing">
+                    <outline text="https://www.usertesting.com/"></outline>
+                </outline>
+            </outline>
+            <outline text="Configuration
+Management">
+                <outline text="CFEngine"></outline>
+                <outline text="Puppet">
+                    <outline text="Hiera"></outline>
+                    <outline text="Facter"></outline>
+                    <outline text="Foreman"></outline>
+                </outline>
+                <outline text="Ansible">
+                    <outline text="Molecule"></outline>
+                </outline>
+                <outline text="Saltstack"></outline>
+                <outline text="Chef"></outline>
+                <outline text="Provisioning">
+                    <outline text="Terraform"></outline>
+                    <outline text="Pulumi"></outline>
+                    <outline text="AWS CDK"></outline>
+                    <outline text="Troposhere"></outline>
+                </outline>
+                <outline text="Data templating language">
+                    <outline text="Jsonnet"></outline>
+                    <outline text="HOCON"></outline>
+                    <outline text="HCL"></outline>
+                    <outline text="Dahll"></outline>
+                    <outline text="ytt"></outline>
+                    <outline text="Data manipulation">
+                        <outline text="dasel"></outline>
+                    </outline>
+                </outline>
+                <outline text="Fabric"></outline>
+                <outline text="PyInfra"></outline>
+                <outline text="kpt"></outline>
+            </outline>
+            <outline text="Orchestration (Workflow Engine)">
+                <outline text="Openstack Mistral"></outline>
+                <outline text="Stackstorm"></outline>
+                <outline text="RunDeck"></outline>
+                <outline text="Apache Airflow"></outline>
+                <outline text="Argo"></outline>
+                <outline text="NodeRED"></outline>
+                <outline text="Netflix Conductor"></outline>
+                <outline text="n8n"></outline>
+            </outline>
+            <outline text="Security">
+                <outline text="IDS">
+                    <outline text="Host-level">
+                        <outline text="Ossec"></outline>
+                        <outline text="Samhain"></outline>
+                    </outline>
+                    <outline text="Network">
+                        <outline text="Snort"></outline>
+                        <outline text="Kismet (wireless)"></outline>
+                        <outline text="Suricata"></outline>
+                        <outline text="Zeek"></outline>
+                    </outline>
+                </outline>
+                <outline text="WAF">
+                    <outline text="Citrix Netscalar
+AppFirewall"></outline>
+                </outline>
+                <outline text="Secrets Management">
+                    <outline text="Hashicorp Vault"></outline>
+                    <outline text="Lyft Confidant"></outline>
+                    <outline text="Pinterest Knox"></outline>
+                    <outline text="SPIFFE"></outline>
+                    <outline text="Openstack Barbican"></outline>
+                </outline>
+                <outline text="SSL">
+                    <outline text="Let's Encrypt"></outline>
+                </outline>
+                <outline text="Firewall">
+                    <outline text="pfSense"></outline>
+                </outline>
+                <outline text="Safe Proxies">
+                    <outline text="Google Zero Touch Prod"></outline>
+                </outline>
+            </outline>
+            <outline text="API Gateways">
+                <outline text="APIGee"></outline>
+                <outline text="ESB (Enterprise
+Service Bus)">
+                    <outline text="IBM Websphere ESB"></outline>
+                    <outline text="Oracle ESB"></outline>
+                    <outline text="TIBCO"></outline>
+                </outline>
+                <outline text="Mulesoft"></outline>
+                <outline text="Kong"></outline>
+                <outline text="Repose"></outline>
+                <outline text="TIBCO Mashery"></outline>
+                <outline text="WSO2"></outline>
+                <outline text="Service Mesh">
+                    <outline text="Istio"></outline>
+                    <outline text="Linkerd"></outline>
+                </outline>
+                <outline text="Tyk"></outline>
+                <outline text="Netflix Zuul"></outline>
+            </outline>
+            <outline text="Caching">
+                <outline text="Backend Cache">
+                    <outline text="Memcached"></outline>
+                    <outline text="Redis"></outline>
+                </outline>
+                <outline text="Webcache">
+                    <outline text="Varnish"></outline>
+                    <outline text="Squid"></outline>
+                </outline>
+            </outline>
+            <outline text="Messaging">
+                <outline text="MQTT">
+                    <outline text="Mosquitto"></outline>
+                </outline>
+                <outline text="AMQP">
+                    <outline text="Apache ActiveMQ"></outline>
+                    <outline text="RabbitMQ"></outline>
+                    <outline text="0mq"></outline>
+                    <outline text="Apache Qpid"></outline>
+                </outline>
+                <outline text="Apache Kafka"></outline>
+                <outline text="Kestrel"></outline>
+                <outline text="NATS"></outline>
+                <outline text="Apache RocketMQ"></outline>
+                <outline text="Nakadi"></outline>
+                <outline text="Apache Pulsar"></outline>
+                <outline text="NSQ"></outline>
+            </outline>
+            <outline text="Source Code
+Management">
+                <outline text="Code Review">
+                    <outline text="Gerrit"></outline>
+                    <outline text="Crucible" _note="Attlassian"></outline>
+                    <outline text="UpSource" _note="Jetbrains"></outline>
+                    <outline text="https://github.com/joho/awesome-code-review"></outline>
+                    <outline text="https://en.wikipedia.org/wiki/Listoftoolsforcode_review"></outline>
+                    <outline text="ReviewBoard"></outline>
+                </outline>
+                <outline text="Version Control">
+                    <outline text="Git">
+                        <outline text="Gitlab"></outline>
+                        <outline text="Bitbucket"></outline>
+                        <outline text="Github"></outline>
+                    </outline>
+                    <outline text="Perforce"></outline>
+                    <outline text="Subversion"></outline>
+                    <outline text="Mercurial"></outline>
+                    <outline text="Clearcase" _note="IBM"></outline>
+                </outline>
+            </outline>
+            <outline text="ITSM">
+                <outline text="On-call">
+                    <outline text="Pagerduty"></outline>
+                </outline>
+                <outline text="ServiceNow"></outline>
+                <outline text="BMC Remedy"></outline>
+                <outline text="Moogsoft"></outline>
+                <outline text="Jira ServiceDesk"></outline>
+                <outline text="Cherwell"></outline>
+                <outline text="Capabilities">
+                    <outline text="Problem Mgmt"></outline>
+                    <outline text="Case Mgmt"></outline>
+                    <outline text="Incident Mgmt"></outline>
+                </outline>
+            </outline>
+            <outline text="Artifact Mgmt">
+                <outline text="Package Repository">
+                    <outline text="Cobbler"></outline>
+                    <outline text="Jfrog Artifactory"></outline>
+                    <outline text="Pulp"></outline>
+                    <outline text="Sonatype Nexus"></outline>
+                    <outline text="Apache Archiva"></outline>
+                    <outline text="Github
+Package Registry"></outline>
+                </outline>
+                <outline text="Build tools">
+                    <outline text="Make"></outline>
+                    <outline text="Java">
+                        <outline text="Gradle"></outline>
+                        <outline text="Maven"></outline>
+                        <outline text="Ant"></outline>
+                    </outline>
+                    <outline text="Ruby">
+                        <outline text="Rake"></outline>
+                        <outline text="Bundler"></outline>
+                    </outline>
+                    <outline text="Python">
+                        <outline text="pip"></outline>
+                        <outline text="Pipfile"></outline>
+                        <outline text="Poetry"></outline>
+                    </outline>
+                    <outline text=".NET">
+                        <outline text="NuGET"></outline>
+                    </outline>
+                    <outline text="Node">
+                        <outline text="npm"></outline>
+                        <outline text="yarn"></outline>
+                    </outline>
+                    <outline text="Containers">
+                        <outline text="Build packs"></outline>
+                        <outline text="Earthly"></outline>
+                        <outline text="Buildah"></outline>
+                        <outline text="Buildkit"></outline>
+                    </outline>
+                </outline>
+            </outline>
+            <outline text="Networking">
+                <outline text="DNS"></outline>
+                <outline text="IPAM (DDI)">
+                    <outline text="Infoblox"></outline>
+                    <outline text="NetBox"></outline>
+                    <outline text="Bluecat"></outline>
+                </outline>
+                <outline text="Webservers">
+                    <outline text="Nginx"></outline>
+                    <outline text="Apache"></outline>
+                    <outline text="Caddy"></outline>
+                </outline>
+                <outline text="Loadbalancer">
+                    <outline text="NGinx"></outline>
+                    <outline text="L4">
+                        <outline text="Katran (XDP/bpf)"></outline>
+                        <outline text="IPVS">
+                            <outline text="seesaw"></outline>
+                        </outline>
+                    </outline>
+                    <outline text="L7">
+                        <outline text="Envoy"></outline>
+                        <outline text="Traefik"></outline>
+                        <outline text="proxygen"></outline>
+                        <outline text="HaProxy"></outline>
+                    </outline>
+                    <outline text="hipache"></outline>
+                    <outline text="vulcan"></outline>
+                    <outline text="Hardware">
+                        <outline text="F5"></outline>
+                    </outline>
+                </outline>
+                <outline text="Zero Trust">
+                    <outline text="BeyondCorp (Google)"></outline>
+                    <outline text="ISE (Cisco)"></outline>
+                    <outline text="Boundary (Hashicorp)"></outline>
+                </outline>
+                <outline text="Monitoring">
+                    <outline text="Observium"></outline>
+                    <outline text="OpenNMS"></outline>
+                </outline>
+            </outline>
+            <outline text="PaaS">
+                <outline text="Hosted">
+                    <outline text="Heroku"></outline>
+                </outline>
+                <outline text="CloudFoundry"></outline>
+                <outline text="OpenShift"></outline>
+            </outline>
+            <outline text="Documentation">
+                <outline text="Generators">
+                    <outline text="Mkdocs"></outline>
+                    <outline text="Docusaurus"></outline>
+                    <outline text="Jekyll"></outline>
+                    <outline text="Source Code docs">
+                        <outline text="Doxygen "></outline>
+                        <outline text="Javadoc"></outline>
+                        <outline text="Sphinx "></outline>
+                    </outline>
+                </outline>
+                <outline text="API">
+                    <outline text="RAML"></outline>
+                    <outline text="Swagger"></outline>
+                    <outline text="OpenAPI"></outline>
+                </outline>
+            </outline>
+            <outline text="Web Frameworks">
+                <outline text="Java">
+                    <outline text="Spring"></outline>
+                    <outline text="Play"></outline>
+                    <outline text="Dropwizard"></outline>
+                </outline>
+                <outline text="Python">
+                    <outline text="Django"></outline>
+                    <outline text="Flask"></outline>
+                    <outline text="Pylons"></outline>
+                </outline>
+                <outline text="Rust">
+                    <outline text="Rocket"></outline>
+                </outline>
+                <outline text="PHP">
+                    <outline text="Laravel"></outline>
+                    <outline text="CakePHP"></outline>
+                    <outline text="Zend"></outline>
+                </outline>
+                <outline text="Go"></outline>
+                <outline text="Javascript">
+                    <outline text="Frontend">
+                        <outline text="Angular"></outline>
+                        <outline text="React"></outline>
+                        <outline text="Vue"></outline>
+                        <outline text="ExtJS (Sensha)"></outline>
+                    </outline>
+                    <outline text="Backend">
+                        <outline text="Next.js"></outline>
+                    </outline>
+                </outline>
+            </outline>
+            <outline text="UX">
+                <outline text="Interface design">
+                    <outline text="Sketch"></outline>
+                    <outline text="Invision"></outline>
+                    <outline text="Framer"></outline>
+                    <outline text="Figma"></outline>
+                    <outline text="Storybook"></outline>
+                </outline>
+            </outline>
+            <outline text="RPC">
+                <outline text="Thrift"></outline>
+                <outline text="gRPC"></outline>
+                <outline text="XMLRPC"></outline>
+                <outline text="Java RMI"></outline>
+                <outline text="Dubbo"></outline>
+                <outline text="Serialization">
+                    <outline text="Schema-ful">
+                        <outline text="CapNProto"></outline>
+                        <outline text="Protobuf"></outline>
+                        <outline text="Flatbuffers"></outline>
+                    </outline>
+                    <outline text="Schema-less">
+                        <outline text="XML"></outline>
+                        <outline text="Json"></outline>
+                        <outline text="Flexbuffers"></outline>
+                    </outline>
+                </outline>
+                <outline text="TIPC"></outline>
+                <outline text="DBus"></outline>
+                <outline text="Client side lib">
+                    <outline text="Netflix IPC"></outline>
+                </outline>
+            </outline>
+            <outline text="DCIM">
+                <outline text="Netbox"></outline>
+                <outline text="Device42"></outline>
+                <outline text="Sunbird"></outline>
+            </outline>
+            <outline text="Project Management">
+                <outline text="Product Mgmt">
+                    <outline text="Aha.io"></outline>
+                </outline>
+                <outline text="Issue Tracking">
+                    <outline text="Jira"></outline>
+                    <outline text="Trello"></outline>
+                    <outline text="Rally"></outline>
+                    <outline text="Asana"></outline>
+                    <outline text="Redmine"></outline>
+                    <outline text="exalate" _note="Integration between different products (JIRA, GH issues, etc) so that different companies can interact easily when they have different systems."></outline>
+                </outline>
+                <outline text="Templates">
+                    <outline text="Architecture Decision Records (ADRs)"></outline>
+                </outline>
+            </outline>
+            <outline text="Infrastructure">
+                <outline text="IaaS">
+                    <outline text="Containers">
+                        <outline text="Container Images">
+                            <outline text="Alpine Linux"></outline>
+                            <outline text="LinuxKit"></outline>
+                        </outline>
+                        <outline text="Container Formats">
+                            <outline text="LXC"></outline>
+                            <outline text="CoreOS"></outline>
+                            <outline text="Docker"></outline>
+                            <outline text="RunC"></outline>
+                            <outline text="nsjail"></outline>
+                        </outline>
+                        <outline text="Container Orchestrators">
+                            <outline text="Hashicorp Nomad"></outline>
+                            <outline text="Kubernetes (k8s)">
+                                <outline text="Rancher"></outline>
+                                <outline text="CCP"></outline>
+                                <outline text="Openshift"></outline>
+                                <outline text="k3s"></outline>
+                                <outline text="microk8s"></outline>
+                            </outline>
+                            <outline text="Docker Swarm"></outline>
+                            <outline text="Mesos (+Marathon)"></outline>
+                        </outline>
+                        <outline text="Image Registries">
+                            <outline text="Quay"></outline>
+                            <outline text="Artifactory"></outline>
+                            <outline text="Docker registry"></outline>
+                            <outline text="Nexus"></outline>
+                        </outline>
+                    </outline>
+                    <outline text="Virtual Machines">
+                        <outline text="Hypervisors">
+                            <outline text="ESXi"></outline>
+                            <outline text="KVM"></outline>
+                            <outline text="Xen"></outline>
+                            <outline text="QEMU"></outline>
+                        </outline>
+                        <outline text="Orchestration">
+                            <outline text="Openstack"></outline>
+                            <outline text="vSphere"></outline>
+                        </outline>
+                        <outline text="Image builders">
+                            <outline text="Packer"></outline>
+                            <outline text="Veewee"></outline>
+                        </outline>
+                    </outline>
+                    <outline text="Serverless/FaaS">
+                        <outline text="Hosted">
+                            <outline text="Google Cloud Functions"></outline>
+                            <outline text="AWS Lambda"></outline>
+                            <outline text="Azure Functions"></outline>
+                        </outline>
+                        <outline text="Self-hosted">
+                            <outline text="IBM OpenWhisk"></outline>
+                            <outline text="OpenFaaS"></outline>
+                            <outline text="Kubeless"></outline>
+                            <outline text="Knative"></outline>
+                        </outline>
+                    </outline>
+                    <outline text="Virtual Networking">
+                        <outline text="Switching">
+                            <outline text="OpenVSwitch (OVS)"></outline>
+                            <outline text="VPP"></outline>
+                        </outline>
+                        <outline text="Routing">
+                            <outline text="Quagga"></outline>
+                            <outline text="vCSR"></outline>
+                            <outline text="VPP"></outline>
+                        </outline>
+                    </outline>
+                    <outline text="Virtual Storage">
+                        <outline text="Ceph"></outline>
+                        <outline text="Rook"></outline>
+                        <outline text="Swift"></outline>
+                    </outline>
+                    <outline text="Bare Metal">
+                        <outline text="Tinkerbell"></outline>
+                        <outline text="Ironic"></outline>
+                    </outline>
+                </outline>
+                <outline text="Datacenter
+Infrastructure"></outline>
+            </outline>
+            <outline text="Observability">
+                <outline text="Tracing">
+                    <outline text="Zipkin"></outline>
+                    <outline text="Jaeger"></outline>
+                    <outline text="OpenTracing"></outline>
+                </outline>
+                <outline text="Monitoring">
+                    <outline text="Hosted Solutions">
+                        <outline text="SolarWinds"></outline>
+                        <outline text="PingDom"></outline>
+                        <outline text="Datadog"></outline>
+                        <outline text="Honeycomb"></outline>
+                        <outline text="ThousandEyes"></outline>
+                    </outline>
+                    <outline text="RDDTool">
+                        <outline text="Graphite"></outline>
+                        <outline text="Cacti"></outline>
+                    </outline>
+                    <outline text="TICK">
+                        <outline text="Telegraf" _note="Equivalent of Logstash: aggregation of metrics"></outline>
+                        <outline text="InfluxDB"></outline>
+                        <outline text="Cronograf" _note="Equivalent of Grafana/Kibana: UI"></outline>
+                        <outline text="Kapacitor" _note="ETL operations on data: aggregation, continous queries, etc"></outline>
+                    </outline>
+                    <outline text="Application Performance
+Monitoring">
+                        <outline text="New Relic"></outline>
+                        <outline text="AppDynamics"></outline>
+                        <outline text="Dynatrace"></outline>
+                        <outline text="Apache SkyWalking"></outline>
+                    </outline>
+                    <outline text="ScienceLogic"></outline>
+                    <outline text="Error Monitoring">
+                        <outline text="Java">
+                            <outline text="OverOps"></outline>
+                        </outline>
+                        <outline text="OverOps"></outline>
+                        <outline text="Sentry"></outline>
+                        <outline text="Rollbar"></outline>
+                    </outline>
+                    <outline text="Self-hosted">
+                        <outline text="Zabbix"></outline>
+                        <outline text="NetData"></outline>
+                        <outline text="CheckMK"></outline>
+                        <outline text="Grafana"></outline>
+                        <outline text="Prometheus"></outline>
+                        <outline text="Monit"></outline>
+                        <outline text="Sensu"></outline>
+                        <outline text="Nagios"></outline>
+                        <outline text="Icinga"></outline>
+                        <outline text="Ganglia"></outline>
+                    </outline>
+                </outline>
+                <outline text="Log Collection (SIEM)">
+                    <outline text="ELK">
+                        <outline text="Elasticsearch"></outline>
+                        <outline text="Logstash"></outline>
+                        <outline text="Kibana"></outline>
+                    </outline>
+                    <outline text="EFK">
+                        <outline text="Fluent"></outline>
+                    </outline>
+                    <outline text="Splunk"></outline>
+                    <outline text="Log Shipper">
+                        <outline text="Filebeat"></outline>
+                        <outline text="Universal Forwarder"></outline>
+                    </outline>
+                    <outline text="Apache Flume"></outline>
+                    <outline text="Vector"></outline>
+                    <outline text="LogRhytyhm"></outline>
+                    <outline text="StreamAlert"></outline>
+                    <outline text="Panther"></outline>
+                    <outline text="Syslog">
+                        <outline text="rsyslog"></outline>
+                        <outline text="syslog-ng"></outline>
+                        <outline text=" syslogd " _note="Original BSD syslog daemon"></outline>
+                    </outline>
+                    <outline text="Search-backend">
+                        <outline text="Sonic"></outline>
+                        <outline text="ElasticSearch"></outline>
+                    </outline>
+                    <outline text="Loki"></outline>
+                </outline>
+                <outline text="Metric Collectors">
+                    <outline text="Statsd"></outline>
+                    <outline text="collectd"></outline>
+                    <outline text="Prometheus
+node_exporter"></outline>
+                </outline>
+            </outline>
+            <outline text="Capacity Management">
+                <outline text="Optaplanner"></outline>
+            </outline>
+            <outline text="Runtimes">
+                <outline text="Java">
+                    <outline text="OpenJDK"></outline>
+                    <outline text="Azul JRE"></outline>
+                    <outline text="GraalVM"></outline>
+                    <outline text="Oracle Java (Hotspot)"></outline>
+                </outline>
+                <outline text="Python">
+                    <outline text="CPython"></outline>
+                    <outline text="PyPy"></outline>
+                </outline>
+            </outline>
+            <outline text="Service Catalog">
+                <outline text="DeployHub"></outline>
+                <outline text="Cisco Cloud Center"></outline>
+            </outline>
+            <outline text="Editors">
+                <outline text="API">
+                    <outline text="APICurio Studio"></outline>
+                </outline>
+            </outline>
+            <outline text="Diagramming">
+                <outline text="Mermaid"></outline>
+                <outline text="yED"></outline>
+            </outline>
+            <outline text="Data Analytics"></outline>
+        </outline>
+    </body>
+</opml>

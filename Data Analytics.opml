@@ -29,21 +29,27 @@
                     <outline text="Google Cloud AutoML"></outline>
                 </outline>
             </outline>
+            <outline text="Business Intelligence">
+                <outline text="Tableau"></outline>
+                <outline text="PowerBI"></outline>
+                <outline text="Metabase"></outline>
+            </outline>
             <outline text="Data Visualization">
                 <outline text="Apache Superset"></outline>
-                <outline text="Tableau"></outline>
-                <outline text="metabase"></outline>
-                <outline text="PowerBI"></outline>
+                <outline text="Datastation"></outline>
+                <outline text="CBoard"></outline>
             </outline>
             <outline text="Web Analytics">
                 <outline text="Matomo"></outline>
                 <outline text="Google Analytics"></outline>
                 <outline text="Amplitude"></outline>
+                <outline text="Pendo"></outline>
             </outline>
             <outline text="Wrangling">
                 <outline text="Exploration">
                     <outline text="DataSette"></outline>
                 </outline>
+                <outline text="OpenRefine"></outline>
                 <outline text="CLI Tools">
                     <outline text="miller"></outline>
                     <outline text="JSON">
@@ -69,10 +75,33 @@
                         <outline text="xsv"></outline>
                     </outline>
                 </outline>
-                <outline text="OpenRefine"></outline>
                 <outline text="diff-tools">
                     <outline text="graphtage"></outline>
                 </outline>
+                <outline text="Programming">
+                    <outline text="Python">
+                        <outline text="Pandas">
+                            <outline text="pyjanitor"></outline>
+                            <outline text="optimus"></outline>
+                        </outline>
+                    </outline>
+                    <outline text="Jupyter">
+                        <outline text="Mito"></outline>
+                    </outline>
+                </outline>
+            </outline>
+            <outline text="OLAP">
+                <outline text="ClickHouse"></outline>
+                <outline text="Mondrian"></outline>
+                <outline text="OLAP Datastores">
+                    <outline text="Apache Pinot"></outline>
+                    <outline text="DuckDB"></outline>
+                </outline>
+            </outline>
+            <outline text="Data Warehouse">
+                <outline text="Apache Doris"></outline>
+                <outline text="Snowflake"></outline>
+                <outline text="Databend"></outline>
             </outline>
         </outline>
     </body>
